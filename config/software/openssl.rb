@@ -204,4 +204,5 @@ build do
     command "sudo /usr/sbin/slibclean", env: env
   end
   make "install", env: env
+  make "install_fips", env: env
 end
